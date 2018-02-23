@@ -1,0 +1,118 @@
+*,
+*:before,
+*:after {
+	transition: all .1s ease-in;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #5295cb;
+	font: 400 26px/1.3 'Lucida Sans Unicode', Lucida Grande, sans-serif;
+}
+
+.ss-container {
+	max-width: 1024px;
+	margin: auto;
+	padding: 40px;
+}
+
+.ss-header-title {
+	color: #FFF;
+}
+
+.ss-footer {
+	color: #FFF;
+	font-size: 18px;
+	padding: 30px 0;
+}
+
+.ss-cities {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 0;
+	/*background-color: #fff;*/
+	/*border: 4px solid #fff;*/
+}
+
+.ss-cities li {
+	display: inline-block;
+	color: #FFF;
+	font-size: 24px;
+	/*opacity: 0.5;*/
+}
+
+/*сделать всем бордер 2пикс и для юл задать 4пикс,
+для бокс сайзинг бордер бокс надо задавать четкие размеры
+*/
+
+/*.ss-cities li:hover {
+	opacity: 1;
+}*/
+
+.ss-paris,
+.ss-belgrade,
+.ss-moscow,
+.ss-tel-aviv,
+.ss-cairo,
+.ss-new-york,
+.ss-new-dehli,
+.ss-tokyo {
+	width: 25%;
+}
+
+.ss-lisbon {
+	width: 50%;
+	background-color: #5295cb;
+}
+
+.ss-paris {
+	background-color: #5fcccb;
+}
+
+.ss-belgrade {
+	background-color: #956299;
+}
+
+.ss-moscow {
+	background-color: #b74849;
+}
+
+.ss-tel-aviv {
+	background-color: #D6694D;
+}
+
+.ss-cairo {
+	background-color: #f6d068;
+}
+
+.ss-new-york {
+	background-color: #9fce99;
+	border-bottom: 3px solid #fff;
+}
+
+.ss-new-dehli {
+	background-color: #6f9999;
+}
+
+.ss-san-francisco {
+	width: 50%;
+	background-color: #c3629a;
+}
+
+.ss-tokyo {
+	background-color: #489b65;
+}
+
+.ss-sydney {
+	width: 100%;
+	background-color: #696299;
+}
+
+.wi	{
+	padding-left: 5px;
+}
