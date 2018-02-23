@@ -50,9 +50,13 @@ body {
 для бокс сайзинг бордер бокс надо задавать четкие размеры
 */
 
-/*.ss-cities li:hover {
+.ss-cities:hover li {
+	opacity: 0.5;
+}
+
+.ss-cities li:hover {
 	opacity: 1;
-}*/
+}
 
 .ss-paris,
 .ss-belgrade,
