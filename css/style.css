@@ -35,20 +35,15 @@ body {
 	list-style: none;
 	text-align: center;
 	font-size: 0;
-	/*background-color: #fff;*/
-	/*border: 4px solid #fff;*/
+	border: 4px solid #fff;
 }
 
 .ss-cities li {
 	display: inline-block;
 	color: #FFF;
 	font-size: 24px;
-	/*opacity: 0.5;*/
+	border: 2px solid #fff;
 }
-
-/*сделать всем бордер 2пикс и для юл задать 4пикс,
-для бокс сайзинг бордер бокс надо задавать четкие размеры
-*/
 
 .ss-cities:hover li {
 	opacity: 0.5;
@@ -118,5 +113,5 @@ body {
 }
 
 .wi	{
-	padding-left: 5px;
+	padding-left: 15px;
 }
